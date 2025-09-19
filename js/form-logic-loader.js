@@ -1,0 +1,1 @@
+export async function loadFormLogic(o){if(!o)return null;const r=`/js/custom/${o}.js`;try{return await import(r)}catch(a){return console.warn(`No se encontró o no se pudo cargar el módulo de lógica para el formulario '${o}' en la ruta '${r}'. Esto es normal si el formulario no tiene lógica JS personalizada.`),null}}
