@@ -1,0 +1,96 @@
+{
+  "title": "Generador de datos hipotéticos",
+  "description": "Crea conjuntos de datos de ejemplo a partir de una idea. Ideal para cuando necesitas visualizar un concepto pero no tienes datos reales.",
+  "suggestedTools": [
+    { "name": "Gemini", "url": "https://gemini.google.com/" },
+    { "name": "ChatGPT", "url": "https://chat.openai.com/" },
+    { "name": "Google Sheets", "url": "https://sheets.new" },
+    { "name": "Excel", "url": "#" }
+  ],
+  "plantilla_prompt": "Actúa como un generador de datasets sintéticos para visualización de datos.\nTu tarea es crear un conjunto de datos hipotético basado en las siguientes especificaciones, listo para ser copiado en una hoja de cálculo.\n\n**Tema del Gráfico:** {{tema_principal}}\n**Métrica Principal (Eje Y):** {{eje_y_valores}}\n**Dimensión/Categoría (Eje X):** {{eje_x_categorias}}\n**Elementos de la Dimensión:** {{eje_x_elementos}}\n**Historia o Tendencia a Reflejar:** {{historia_tendencia}}\n{{#if descripcion_historia}}\n**Detalles adicionales de la tendencia:** {{descripcion_historia}}\n{{/if}}\n\n**Detalles Adicionales:**\n   - Genera una tabla con los datos solicitados.\n   - Los valores de la métrica deben estar en un rango realista de {{rango_valores}}.\n   - Asegúrate de que los datos reflejen claramente la tendencia solicitada.\n\n**Formato de Salida:** Genera el resultado final únicamente en formato {{formato_salida}}, sin explicaciones adicionales.",
+  "campos": [
+    {
+      "id": "tema_principal",
+      "etiqueta": "Tema Principal",
+      "type": "text",
+      "required": true,
+      "placeholder": "Ej: Crecimiento de suscriptores de una app",
+      "tooltip": "Describe el propósito general o el título de tu gráfico.",
+      "options": []
+    },
+    {
+      "id": "historia_tendencia",
+      "etiqueta": "¿Qué historia quieres contar?",
+      "type": "select",
+      "required": true,
+      "placeholder": "Selecciona una tendencia",
+      "tooltip": "Elige la forma general que tendrán tus datos. Esto le dará a la IA una guía clara sobre cómo generar las cifras.",
+      "options": [
+        { "value": "crecimiento_constante", "text": "Crecimiento constante" },
+        { "value": "crecimiento_exponencial", "text": "Crecimiento exponencial" },
+        { "value": "caida_recuperacion", "text": "Caída y luego recuperación" },
+        { "value": "comparacion_dominante", "text": "Comparación (un elemento es claramente superior)" },
+        { "value": "tendencia_estacional", "text": "Tendencia estacional (con picos y valles)" },
+        { "value": "distribucion_pareja", "text": "Distribución pareja" },
+        { "value": "otro", "text": "Otro (describir a continuación)" }
+      ]
+    },
+    {
+      "id": "descripcion_historia",
+      "etiqueta": "Describe la historia (Opcional)",
+      "type": "textarea",
+      "required": false,
+      "placeholder": "Ej: Quiero mostrar que el Producto A empezó lento pero superó al Producto B en el último trimestre.",
+      "tooltip": "Usa este campo si elegiste 'Otro' o si quieres darle a la IA más detalles sobre la narrativa de tus datos.",
+      "options": []
+    },
+    {
+      "id": "eje_x_categorias",
+      "etiqueta": "Eje X (Categorías)",
+      "type": "text",
+      "required": true,
+      "placeholder": "Ej: Meses del Año, Países, Nombres de Productos",
+      "tooltip": "Nombra la columna de las categorías o la variable independiente. Generalmente es el tiempo o los elementos que comparas.",
+      "options": []
+    },
+    {
+      "id": "eje_x_elementos",
+      "etiqueta": "Elementos del Eje X (separados por coma)",
+      "type": "text",
+      "required": true,
+      "placeholder": "Ej: Enero, Febrero, Marzo, Abril, Mayo, Junio",
+      "tooltip": "Escribe los nombres de cada una de las categorías que quieres que aparezcan en el eje X.",
+      "options": []
+    },
+    {
+      "id": "eje_y_valores",
+      "etiqueta": "Eje Y (Valores)",
+      "type": "text",
+      "required": true,
+      "placeholder": "Ej: Número de Ventas, Ingresos (en USD)",
+      "tooltip": "Nombra la columna de los valores numéricos o la variable dependiente.",
+      "options": []
+    },
+    {
+      "id": "rango_valores",
+      "etiqueta": "Rango de Valores",
+      "type": "text",
+      "required": true,
+      "placeholder": "Ej: Entre 100 y 5,000",
+      "tooltip": "Define un rango numérico aproximado para que los datos generados se vean realistas.",
+      "options": []
+    },
+    {
+      "id": "formato_salida",
+      "etiqueta": "Formato de Salida",
+      "type": "select",
+      "required": true,
+      "placeholder": "Selecciona un formato",
+      "tooltip": "Elige 'Tabla' para copiar y pegar fácilmente. Elige 'CSV' si prefieres texto plano separado por comas.",
+      "options": [
+        { "value": "tabla_markdown", "text": "Tabla (fácil de copiar y pegar)" },
+        { "value": "csv", "text": "CSV (texto separado por comas)" }
+      ]
+    }
+  ]
+}

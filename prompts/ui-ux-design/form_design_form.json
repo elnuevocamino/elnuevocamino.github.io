@@ -1,0 +1,127 @@
+{
+    "id": "form_design_form",
+    "nombre": "Diseñador de Formularios Avanzado",
+    "descripcion": "Genera prompts detallados para crear wireframes o diseños de formularios con especificaciones precisas.",
+    "campos": [
+        {
+            "id": "designType",
+            "etiqueta": "Tipo de Diseño",
+            "tipo": "select",
+            "opciones": [
+                { "valor": "un wireframe de baja fidelidad", "texto": "Wireframe de baja \u00a0de baja fidelidad", "selected": true },
+                { "valor": "un formulario con estilos bien definidos", "texto": "Formulario con estilos definidos" }
+            ],
+            "tooltip": "Elige si quieres un boceto b\u00e1sico o un dise\u00f1o m\u00e1s elaborado."
+        },
+        {
+            "id": "formTitle",
+            "etiqueta": "T\u00edtulo del Formulario",
+            "tipo": "text",
+            "placeholder": "Ej: Registro de cliente",
+            "requerido": true,
+            "tooltip": "El t\u00edtulo principal que aparecer\u00e1 en el formulario."
+        },
+        {
+            "id": "formFields",
+            "etiqueta": "Campos del Formulario",
+            "tipo": "table",
+            "texto_boton_anadir": "A\u00f1adir Campo",
+            "tooltip": "Define cada uno de los campos que el formulario debe contener.",
+            "columnas": [
+                { "id": "fieldName", "etiqueta": "Nombre del Campo", "tipo": "text", "placeholder": "Ej: Nombre", "requerido": true },
+                {
+                    "id": "fieldType",
+                    "etiqueta": "Tipo de Control",
+                    "tipo": "select",
+                    "opciones": [
+                        { "valor": "text", "texto": "Cuadro de texto", "selected": true },
+                        { "valor": "password", "texto": "Contrase\u00f1a" },
+                        { "valor": "email", "texto": "Email" },
+                        { "valor": "number", "texto": "N\u00famero" },
+                        { "valor": "date", "texto": "Fecha" },
+                        { "valor": "time", "texto": "Hora" },
+                        { "valor": "select", "texto": "Selector" },
+                        { "valor": "checkbox", "texto": "Casilla de verificaci\u00f3n" }
+                    ]
+                },
+                { "id": "isRequired", "etiqueta": "\u00bfRequerido?", "tipo": "checkbox" },
+                { "id": "placeholder", "etiqueta": "Placeholder", "tipo": "text", "placeholder": "Ej: Escriba su nombre" }
+            ]
+        },
+        {
+            "id": "labelStyle",
+            "etiqueta": "Estilo de Etiquetas",
+            "tipo": "select",
+            "opciones": [
+                { "valor": "Sobre el control", "texto": "Sobre el control", "selected": true },
+                { "valor": "A la izquierda del control", "texto": "A la izquierda del control" },
+                { "valor": "Como placeholder", "texto": "Como placeholder" }
+            ],
+            "tooltip": "Define la posici\u00f3n de las etiquetas de los campos."
+        },
+        {
+            "id": "formButtons",
+            "etiqueta": "Botones del Formulario",
+            "tipo": "table",
+            "texto_boton_anadir": "A\u00f1adir Bot\u00f3n",
+            "columnas": [
+                { "id": "buttonTitle", "etiqueta": "T\u00edtulo del Bot\u00f3n", "tipo": "text", "placeholder": "Ej: Aceptar", "requerido": true }
+            ]
+        },
+        {
+            "id": "designStyle",
+            "etiqueta": "Estilo de Dise\u00f1o Preferido",
+            "tipo": "text",
+            "placeholder": "Ej: Profesional, Minimalista, Moderno",
+            "requerido": false,
+            "tooltip": "Describe la est\u00e9tica general que buscas."
+        },
+        {
+            "id": "deviceSize",
+            "etiqueta": "Tama\u00f1o de Dispositivo",
+            "tipo": "select",
+            "opciones": [
+                { "valor": "Movil", "texto": "M\u00f3vil", "selected": true },
+                { "valor": "Tablet", "texto": "Tablet" },
+                { "valor": "Escritorio", "texto": "Escritorio" }
+            ],
+            "tooltip": "Elige el tama\u00f1o de pantalla para el dise\u00f1o."
+        },
+        {
+            "id": "deviceOrientation",
+            "etiqueta": "Orientaci\u00f3n",
+            "tipo": "select",
+            "opciones": [
+                { "valor": "Vertical", "texto": "Vertical", "selected": true },
+                { "valor": "Horizontal", "texto": "Horizontal" }
+            ],
+            "tooltip": "La orientaci\u00f3n de la pantalla."
+        },
+        {
+            "id": "outputFormat",
+            "etiqueta": "Formato de Salida",
+            "tipo": "select",
+            "opciones": [
+                { "valor": "Imagen jpg", "texto": "Imagen JPG", "selected": true },
+                { "valor": "Imagen png", "texto": "Imagen PNG" },
+                { "valor": "C\u00f3digo HTML/CSS", "texto": "C\u00f3digo HTML/CSS" }
+            ],
+            "tooltip": "El formato final que deseas obtener."
+        },
+        {
+            "id": "additionalNotes",
+            "etiqueta": "Notas Adicionales",
+            "tipo": "textarea",
+            "filas": 3,
+            "placeholder": "Cualquier otro detalle importante para el dise\u00f1o.",
+            "requerido": false
+        }
+    ],
+    "plantilla_prompt": "Genera un {{designType}} con los siguientes requisitos:\n\n**Titulo:**\n{{formTitle}}\n\n**Campos:**\n{{#each formFields}}- **Campo:** {{this.fieldName}}, **Tipo:** {{this.fieldType}}{{#if this.isRequired}}, **(Requerido)**{{/if}}{{#if this.placeholder}}, **Placeholder:** {{this.placeholder}}{{/if}}\n{{/each}}\n**Estilo de etiquetas:** {{labelStyle}}\n\n**Botones:**\n{{#each formButtons}}- **Titulo:** {{this.buttonTitle}}\n{{/each}}\n**Estilo de Dise\u00f1o Preferido:**\n{{designStyle}}\n\n**Tama\u00f1o de dispositivo:**\n{{deviceSize}}\n**Orientaci\u00f3n:**\n{{deviceOrientation}}\n\n**Formato de salida**\n{{outputFormat}}\n\n{{#if additionalNotes}}**Notas Adicionales:**\n{{additionalNotes}}{{/if}}",
+    "suggestedTools": [
+        { "name": "Gemini Nano banana", "url": "#" },
+        { "name": "Figma", "url": "https://www.figma.com/" },
+        { "name": "Adobe XD", "url": "https://www.adobe.com/products/xd.html" },
+        { "name": "Sketch", "url": "https://www.sketch.com/" }
+    ]
+}
