@@ -105,6 +105,13 @@
         "templatedJsonPath": "/prompts/contenido-escrito/email_writer_form.json"
     },
     {
+        "id": "generador-de-ideas",
+        "categoryId": "contenido-escrito",
+        "title": "Generador de Ideas para Artículos",
+        "description": "Supera el bloqueo creativo y genera una lista de ideas atractivas para tu próximo artículo de blog.",
+        "templatedJsonPath": "/prompts/contenido-escrito/generador-de-ideas.json"
+    },
+    {
         "id": "cash_flow_projector_form",
         "title": "Proyector de Flujo de Caja",
         "description": "Genera una proyección de flujo de caja detallada basada en tus ingresos, egresos y supuestos.",

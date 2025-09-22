@@ -41,6 +41,15 @@
             ]
         },
         {
+            "id": "keyPoints",
+            "etiqueta": "Puntos Clave a Cubrir",
+            "tipo": "textarea",
+            "filas": 5,
+            "placeholder": "- Un punto clave por línea.\n- Ayuda a estructurar el contenido del artículo.",
+            "requerido": false,
+            "tooltip": "Enumera los temas o ideas principales que el artículo debe desarrollar. Usa una idea por línea."
+        },
+        {
             "id": "blogSections",
             "etiqueta": "Secciones a Incluir",
             "tipo": "checkbox-group",
@@ -59,9 +68,18 @@
             "placeholder": "Ej: 'Suscríbete a nuestro boletín', 'Deja un comentario con tu opinión'.",
             "requerido": false,
             "tooltip": "La acción que quieres que el lector realice al final."
+        },
+        {
+            "id": "additionalComments",
+            "etiqueta": "Comentarios Adicionales (Opcional)",
+            "tipo": "textarea",
+            "filas": 3,
+            "placeholder": "Ej: No mencionar a la competencia, usar un ejemplo específico sobre X tema, etc.",
+            "requerido": false,
+            "tooltip": "Cualquier otra instrucción, restricción o detalle que la IA deba considerar."
         }
     ],
-    "plantilla_prompt": "Actúa como un experto en redacción de contenido y SEO. Tu tarea es escribir un artículo de blog completo y optimizado.\n\n**Tema:** {{blogTopic}}\n**Palabra Clave Principal:** {{blogKeywords}}\n{{#if blogAudience}}**Público Objetivo:** {{blogAudience}}{{/if}}\n**Tono:** {{blogTone}}\n\n**Estructura y Requisitos:**\nEl artículo debe estar bien estructurado, ser fácil de leer y estar optimizado para SEO en torno a la palabra clave principal.\n{{#if blogSections}}\nEl artículo debe incluir las siguientes secciones:\n{{blogSections}}\n{{/if}}\n\n{{#if blogCTA}}Al final del artículo, incluye una llamada a la acción que invite al lector a: '{{blogCTA}}'.{{/if}}\n\nGenera el artículo completo.",
+    "plantilla_prompt": "Actúa como un experto en redacción de contenido y SEO. Tu tarea es escribir un artículo de blog completo y optimizado.\n\n**Tema:** {{blogTopic}}\n**Palabra Clave Principal:** {{blogKeywords}}\n{{#if blogAudience}}**Público Objetivo:** {{blogAudience}}{{/if}}\n**Tono:** {{blogTone}}\n\n**Estructura y Requisitos:**\nEl artículo debe estar bien estructurado, ser fácil de leer y estar optimizado para SEO en torno a la palabra clave principal.\n{{#if blogSections}}\nEl artículo debe incluir las siguientes secciones:\n{{blogSections}}\n{{/if}}\n{{#if keyPoints}}\nAdemás, asegúrate de desarrollar los siguientes puntos clave a lo largo del texto:\n{{keyPoints}}\n{{/if}}\n\n{{#if blogCTA}}Al final del artículo, incluye una llamada a la acción que invite al lector a: '{{blogCTA}}'.{{/if}}\n{{#if additionalComments}}\n**Instrucciones Adicionales:** {{additionalComments}}{{/if}}\n\nGenera el artículo completo.",
     "suggestedTools": [
         { "name": "ChatGPT", "url": "https://chat.openai.com/" },
         { "name": "Gemini", "url": "https://gemini.google.com/" },

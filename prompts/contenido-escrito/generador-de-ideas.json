@@ -1,0 +1,50 @@
+{
+  "name": "Generador de Ideas para Artículos",
+  "category": "contenido-escrito",
+  "description": "Supera el bloqueo creativo y genera una lista de ideas atractivas para tu próximo artículo de blog. Simplemente define tu objetivo, tu audiencia y el tono que buscas.",
+  "campos": [
+    {
+      "id": "objetivo_principal",
+      "etiqueta": "🎯 ¿Cuál es el objetivo principal del artículo?",
+      "tooltip": "Describe qué quieres lograr con este artículo. Por ejemplo: atraer nuevos suscriptores, explicar cómo funciona un producto, o posicionar tu marca como experta en un tema.",
+      "type": "textarea",
+      "placeholder": "Ej: Enganchar a los usuarios a utilizar una nueva función, explicar un concepto complejo, atraer tráfico SEO sobre un tema específico...",
+      "requerido": true,
+      "filas": 4
+    },
+    {
+      "id": "audiencia",
+      "etiqueta": "👥 ¿A quién te diriges?",
+      "tooltip": "Define tu lector ideal. Conocer a tu audiencia ayuda a que las ideas y el tono del contenido sean más efectivos.",
+      "type": "text",
+      "placeholder": "Ej: Principiantes en programación, expertos en marketing, aficionados a la IA...",
+      "requerido": true
+    },
+    {
+      "id": "tono",
+      "etiqueta": "🎨 ¿Qué tono debe tener el contenido?",
+      "tooltip": "Elige el estilo de comunicación. Un tono conversacional es cercano y amigable, mientras que uno profesional es más formal y directo.",
+      "type": "select",
+      "opciones": [
+        { "valor": "Conversacional", "texto": "Conversacional" },
+        { "valor": "Profesional", "texto": "Profesional" },
+        { "valor": "Humorístico", "texto": "Humorístico" },
+        { "valor": "Técnico", "texto": "Técnico" },
+        { "valor": "Inspirador", "texto": "Inspirador" },
+        { "valor": "Persuasivo", "texto": "Persuasivo" }
+      ],
+      "default": "Conversacional",
+      "requerido": true
+    },
+    {
+      "id": "cantidad_ideas",
+      "etiqueta": "🔢 ¿Cuántas ideas quieres generar?",
+      "tooltip": "Define cuántas sugerencias de artículos necesitas. Un buen número para empezar es 10.",
+      "type": "number",
+      "default": 1,
+      "min": 1,
+      "requerido": true
+    }
+  ],
+  "plantilla_prompt": "Actúa como un estratega de contenido experto. Tu tarea es generar {{cantidad_ideas}} ideas para un artículo de blog.\n\nAquí está el contexto:\n- El objetivo principal del artículo es: {{objetivo_principal}}\n- La audiencia objetivo es: {{audiencia}}\n\nLas ideas deben ser atractivas, originales y estar alineadas con el objetivo y la audiencia. El tono de los títulos propuestos debe ser {{tono}}.\n\nPara cada idea, proporciona un título llamativo y una breve descripción (1-2 frases) del enfoque del artículo."
+}
