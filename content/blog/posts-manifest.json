@@ -1,14 +1,5 @@
 [
     {
-        "publicationDate": "2025-09-19",
-        "file": "posts/adios-al-bloqueo-del-escritor.html",
-        "title": "Adiós al Bloqueo del Escritor: De la Idea al Artículo con IA en 2 Pasos",
-        "subtitle": "Un flujo de trabajo práctico para generar contenido de calidad sin fricción, combinando dos de nuestras herramientas más potentes.",
-        "image": "adios-al-bloqueo-del-escritor.png",
-        "excerpt": "Descubre cómo superar el bloqueo del escritor utilizando un flujo de dos pasos con las herramientas de IA de HactivePro para generar ideas y desarrollar artículos completos.",
-        "slug": "adios-al-bloqueo-del-escritor"
-    },
-    {
         "publicationDate": "2025-05-28",
         "file": "posts/de-la-piedra-al-algoritmo.html",
         "title": "De la piedra al algoritmo",
@@ -134,5 +125,23 @@
         "image": "potencia-tu-contenido-con-ia.png",
         "excerpt": "",
         "slug": ""
+    },
+    {
+        "publicationDate": "2025-09-19",
+        "file": "posts/adios-al-bloqueo-del-escritor.html",
+        "title": "Adiós al Bloqueo del Escritor: De la Idea al Artículo con IA en 2 Pasos",
+        "subtitle": "Un flujo de trabajo práctico para generar contenido de calidad sin fricción, combinando dos de nuestras herramientas más potentes.",
+        "image": "adios-al-bloqueo-del-escritor.png",
+        "excerpt": "Descubre cómo superar el bloqueo del escritor utilizando un flujo de dos pasos con las herramientas de IA de HactivePro para generar ideas y desarrollar artículos completos.",
+        "slug": "adios-al-bloqueo-del-escritor"
+    },
+    {
+        "publicationDate": "2025-09-26",
+        "file": "posts/la-buena-noticia-es-que-es-dificil.html",
+        "title": "La buena noticia es que es muy difícil",
+        "subtitle": "La Ilusión del Éxito Instantáneo.",
+        "image": "la-buena-noticia-es-que-es-dificil.png",
+        "excerpt": "Últimamente, en el vasto y ruidoso mundo de internet, hay un zumbido constante, una promesa que resuena en cada titular: la Inteligencia Artificial te hará rico de la noche a la mañana...",
+        "slug": "la-buena-noticia-es-que-es-dificil"
     }
 ]
