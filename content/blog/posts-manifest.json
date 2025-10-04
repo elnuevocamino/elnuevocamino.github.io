@@ -143,5 +143,14 @@
         "image": "la-buena-noticia-es-que-es-dificil.png",
         "excerpt": "Últimamente, en el vasto y ruidoso mundo de internet, hay un zumbido constante, una promesa que resuena en cada titular: la Inteligencia Artificial te hará rico de la noche a la mañana...",
         "slug": "la-buena-noticia-es-que-es-dificil"
+    },
+    {
+        "publicationDate": "2025-10-03",
+        "file": "posts/la-navaja-suiza-digital.html",
+        "title": "La Navaja Suiza Digital",
+        "subtitle": "Por Qué Tu IA No Es Magia, Sino un Destornillador",
+        "image": "navaja-suiza-digital.png",
+        "excerpt": "¿Alguna vez te has enfrentado a un tornillo de estrella con solo un alicate en la mano? Es frustrante, ¿verdad? Puedes hacer palanca, girar, hasta quizás malograr la cabeza del tornillo...",
+        "slug": "la-navaja-suiza-digital"
     }
 ]
