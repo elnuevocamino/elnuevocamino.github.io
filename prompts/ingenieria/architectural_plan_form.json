@@ -1,7 +1,7 @@
 {
     "id": "architectural_plan_form",
-    "nombre": "Generador de Planos Arquitectónicos",
-    "descripcion": "Genera especificaciones para planos de edificaciones, definiendo tipo, áreas, niveles y distribución.",
+    "nombre": "Generador de Prompts para Planos Arquitectónicos",
+    "descripcion": "Crea prompts detallados para generar planos arquitectónicos con IA. Define el tipo de edificación, áreas, estilo y más para obtener resultados profesionales.",
     "campos": [
         {
             "id": "buildingType",
