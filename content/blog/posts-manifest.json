@@ -30,16 +30,16 @@
         "publicationDate": "2025-07-01",
         "title": "El Arte perdido de la comunicación en la era digital",
         "subtitle": "Un discurso de Churchill en 280 caracteres?",
-        "file": "posts/el-arte-perdido-de-la-comunicacion-en-la-era-digital.html",
+        "file": "posts/el-arte-perdido.html",
         "image": "el-arte-perdido-de-la-comunicacion.jpg",
         "excerpt": "La brevedad no es un atajo sino una cima que exige una escalada mas empinada",
         "slug": "el-arte-perdido-de-la-comunicacion-en-la-era-digital"
     },
     {
         "publicationDate": "2025-07-09",
-        "title": "Iniciación a la ingeniería de prompt",
+        "title": "Iniciación a los de prompts: El Arte de Hablar con la IA",
         "subtitle": "Domina la habilidad clave para desbloquear el verdadero potencial de la Inteligencia Artificial",
-        "file": "posts/guia-completa-ingenieria-prompt.html",
+        "file": "posts/iniciacion-a-los-prompts.html",
         "image": "prompt-engineering-guide.jpg",
         "excerpt": "Si alguna vez has sentido que la Inteligencia Artificial no te da exactamente lo que pides, no estás solo",
         "slug": "guia-completa-ingenieria-prompt"
@@ -56,7 +56,7 @@
     ,
     {
         "publicationDate": "2025-07-23",
-        "title": "El valle inquietante 2.0",
+        "title": "El nuevo valle inquietante",
         "subtitle": "Cuando las máquinas conversan tan bien que nos incomodan",
         "file": "posts/el-valle-inquietante.html",
         "image": "el-valle-inquietante.png",
