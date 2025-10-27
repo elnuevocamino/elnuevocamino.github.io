@@ -406,6 +406,13 @@
         "templatedJsonPath": "/prompts/storytelling/general_story_generator_form.json"
     },
     {
+        "id": "generador_videos_tik-tok",
+        "title": "Generador de Guiones Virales de TikTok",
+        "description": "Crea guiones para TikTok con finales inesperados, optimizados para la viralidad y el debate.",
+        "categoryId": "storytelling",
+        "templatedJsonPath": "/prompts/storytelling/generador_videos_tik-tok.json"
+    },
+    {
         "id": "learn_new_topic_form",
         "title": "Generador de Prompts para Aprender Temas Nuevos",
         "description": "Genera prompts para crear un plan de estudio estructurado y aprender cualquier tema desde cero, adaptado a tu nivel y metas.",

@@ -141,4 +141,22 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://www.hacktivepro.com/content/blog/posts/de-la-anticipacion-a-la-garantia.html</loc>
+        <lastmod>2025-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.hacktivepro.com/content/blog/posts/a-paradoja-del-desarrollo-con-ia.html.html</loc>
+        <lastmod>2025-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.hacktivepro.com/content/blog/posts/la-deuda-tecnica.html</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>

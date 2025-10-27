@@ -5,7 +5,7 @@
         "title": "De la piedra al algoritmo",
         "subtitle": "Una Breve Historia de la Innovación Humana y el Amanecer de la Era de la IA",
         "image": "de-la-piedra.jpg",
-        "excerpt": "Hace aproximadamente unos 70.000 años, existian en la tierra dos especies distinas de primates...",
+        "excerpt": "El Neandertal era más fuerte, pero el Cromañón tenía herramientas. ¿Quién eres tú en la Era de la IA?",
         "slug": "DeLaPiedraAlAlgoritmo"
     },
     {
@@ -78,7 +78,7 @@
         "subtitle": "Una travesía desde la intuición primitiva hasta el control del propio rumbo",
         "file": "posts/navegacion-inteligente-uno.html",
         "image": "navegacion-inteligente-uno.png",
-        "excerpt": "",
+        "excerpt": "No estás a la deriva. Un viaje desde la navegación primitiva hasta el control de tu rumbo interior, aplicando los principios de la vela.",
         "slug": "navegacion-inteligente-uno"
     },
     {
@@ -87,7 +87,7 @@
         "subtitle": "Convierte cada emoción en una oportunidad para dirigir tu propio viaje.",
         "file": "posts/navegacion-inteligente-dos.html",
         "image": "navegacion-inteligente-dos.png",
-        "excerpt": "",
+        "excerpt": "Convierte tus emociones en poder. Siete pasos de la navegación para ser tu propio auto-entrenador emocional y dirigir tu destino",
         "slug": "navegacion-inteligente-dos"
     },
     {
@@ -96,7 +96,7 @@
         "subtitle": "Cómo un simple concepto de la termodinámica se convirtió en la clave para desatar la creatividad de la Inteligencia Artificial.",
         "file": "posts/subiendo-la-temperatura.html",
         "image": "subiendo-la-tempertura.png",
-        "excerpt": "",
+        "excerpt": "La termodinámica tiene la clave de la creatividad. Descubre cómo la temperatura controla si tu IA es precisa y aburrida, o una máquina de ideas geniales y locas.",
         "slug": "subiendo-la-tempertura"
     },
     {
@@ -105,7 +105,7 @@
         "subtitle": "Cómo la Visualización Impulsa tu Productividad en el Código",
         "file": "posts/puedes-dibujarlo.html",
         "image": "puedes-dibujarlo.png",
-        "excerpt": "",
+        "excerpt": "Transforma la jungla de tu código en un plano claro. Usa la visualización UML e IA para entender la arquitectura, refactorizar con precisión y alcanzar la maestría en el desarrollo de software",
         "slug": "puedes-dibujarlo"
     },
     {
@@ -123,8 +123,8 @@
         "subtitle": "Cómo la Visualización Impulsa tu Productividad en el Código",
         "file": "posts/potencia-tu-contenido-con-ia.html",
         "image": "potencia-tu-contenido-con-ia.png",
-        "excerpt": "",
-        "slug": ""
+        "excerpt": "¿Bloqueo creativo? La IA es tu asistente. Aprende a multiplicar tu productividad de contenido, generar ideas al instante y optimizar tu SEO. ¡Libera tu tiempo!",
+        "slug": "potencia-tu-contenido-con-ia"
     },
     {
         "publicationDate": "2025-09-19",
@@ -152,5 +152,32 @@
         "image": "navaja-suiza-digital.png",
         "excerpt": "¿Alguna vez te has enfrentado a un tornillo de estrella con solo un alicate en la mano? Es frustrante, ¿verdad? Puedes hacer palanca, girar, hasta quizás malograr la cabeza del tornillo...",
         "slug": "la-navaja-suiza-digital"
+    },
+    {
+        "publicationDate": "2025-10-10",
+        "file": "posts/de-la-anticipacion-a-la-garantia.html",
+        "title": "De la Anticipación a la Garantía",
+        "subtitle": "El Nuevo Rol del Programador en la Era de la IA",
+        "image": "de-la-anticipacion-a-la-garantia.png",
+        "excerpt": "El programador ya no puede anticipar el 100% de los escenarios. Descubre cómo tu rol evoluciona de la lógica determinista a la Ingeniería de la Garantía con la IA, y aprende a controlar lo incierto.",
+        "slug": "de-la-anticipacion-a-la-garantia"
+    },
+    {
+        "publicationDate": "2025-10-17",
+        "file": "posts/la-paradoja-del-desarrollo-con-ia.html",
+        "title": "La Paradoja del Desarrollo con IA",
+        "subtitle": "¿Franquicia Llave en Mano o Planos del Arquitecto?",
+        "image": "franquicia-vs-planos.png",
+        "excerpt": "¿Velocidad sin control (Franquicia) o código transparente con libertad (Planos del Arquitecto)? La IA obliga a elegir. Descubre cómo Gemini resuelve esta paradoja del desarrollo.",
+        "slug": "la-paradoja-del-desarrollo-con-ia"
+    },
+    {
+        "publicationDate": "2025-10-24",
+        "file": "posts/la-deuda-tecnica.html",
+        "title": "La Deuda Técnica y el Precio de los Atajos",
+        "subtitle": "Cuando el corto plazo compromete el largo plazo",
+        "image": "la-deuda-tecnica.png",
+        "excerpt": "¿Estás sacrificando la calidad por una falsa sensación de velocidad? Usando la metáfora del carpintero y el andamio, desglosamos cómo las soluciones rápidas generan un interés compuesto negativo en tus proyectos.",
+        "slug": "la-deuda-tecnica"
     }
 ]

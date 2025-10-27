@@ -1,0 +1,32 @@
+{
+  "id": "generador_videos_tik-tok",
+  "nombre": "Generador de Guiones Virales de TikTok",
+  "descripcion": "Crea guiones para TikTok con finales inesperados, optimizados para la viralidad y el debate.",
+  "campos": [
+    {
+      "id": "duracion_maxima",
+      "etiqueta": "Duración Máxima (segundos)",
+      "tipo": "number",
+      "defaultValue": 60,
+      "requerido": true
+    },
+    {
+      "id": "tema_pelicula",
+      "etiqueta": "Tema de la Película/Serie",
+      "tipo": "text",
+      "requerido": true
+    },
+    {
+      "id": "giro_inesperado",
+      "etiqueta": "Giro Inesperado o Premisa",
+      "tipo": "textarea",
+      "requerido": true
+    },
+    {
+      "id": "tono_deseado",
+      "etiqueta": "Tono Deseado",
+      "tipo": "text"
+    }
+  ],
+  "plantilla_prompt": "Actúa como un guionista profesional y editor de video para TikTok, especializado en contenido viral de 'Finales Inesperados'.\nTu objetivo es crear un guion que genere debate y un alto porcentaje de 'Watch Time'.\n\n# INSTRUCCIONES DE SALIDA:\n- Genera un guion narrativo, idealmente de menos de {{duracion_maxima}} segundos de duración.\n- Debe tratar sobre Película/Tema: {{tema_pelicula}}\n- Partiendo de Giro Inesperado/Premisa: {{giro_inesperado}}\n- Tono (opcional): {{tono_deseado}}\n- El guion debe estar optimizado para VOZ EN OFF.\n- El primer párrafo debe contener un 'Gancho Fuerte' de 3 a 5 segundos que detenga el scroll.\n- Después del guion, genera una lista separada de 3 sugerencias de Hashtags de alto impacto para la publicación.\n- NO incluyas ninguna introducción ni conclusión, solo el guion y los hashtags."
+}
