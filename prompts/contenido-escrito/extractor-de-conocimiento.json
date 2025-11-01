@@ -1,0 +1,55 @@
+{
+  "name": "Extractor de Conocimiento",
+  "category": "contenido-escrito",
+  "description": "Convierte tu sabiduría en contenido. Actúa como si un periodista te entrevistara sobre un tema que dominas y transforma tus respuestas en un texto pulido.",
+  "campos": [
+    {
+      "id": "tema_conocimiento",
+      "etiqueta": "🧠 ¿Sobre qué tema tienes un profundo conocimiento?",
+      "tooltip": "Describe el área en la que eres experto. Sé específico para que la entrevista sea más efectiva.",
+      "type": "textarea",
+      "placeholder": "Ej: Optimización de bases de datos SQL, historia de la filosofía estoica, técnicas de panadería con masa madre...",
+      "requerido": true,
+      "filas": 3
+    },
+    {
+      "id": "objetivo_escritura",
+      "etiqueta": "📝 ¿En qué formato final quieres convertir la entrevista?",
+      "tooltip": "Elige el tipo de contenido que quieres crear a partir de tus respuestas.",
+      "type": "select",
+      "opciones": [
+        { "valor": "un artículo de blog", "texto": "Artículo de Blog" },
+        { "valor": "un guion para un video de YouTube", "texto": "Guion de Video" },
+        { "valor": "una serie de 5 tweets", "texto": "Hilo de Twitter/X" },
+        { "valor": "un correo electrónico para mi newsletter", "texto": "Correo para Newsletter" },
+        { "valor": "una sección para la documentación de un proyecto", "texto": "Documentación de Proyecto" }
+      ],
+      "default": "un artículo de blog",
+      "requerido": true
+    },
+    {
+      "id": "titulo_resultado",
+      "etiqueta": "🏷️ ¿Qué título debe llevar el resultado final?",
+      "tooltip": "El título que encabezará el texto generado.",
+      "type": "text",
+      "placeholder": "Ej: Guía Definitiva sobre la Masa Madre",
+      "requerido": true
+    },
+    {
+      "id": "tono",
+      "etiqueta": "🎨 ¿Qué tono debe tener el texto final?",
+      "tooltip": "Elige el estilo de comunicación para el contenido generado.",
+      "type": "select",
+      "opciones": [
+        { "valor": "Profesional y didáctico", "texto": "Profesional" },
+        { "valor": "Cercano y conversacional", "texto": "Conversacional" },
+        { "valor": "Inspirador y motivacional", "texto": "Inspirador" },
+        { "valor": "Técnico y preciso", "texto": "Técnico" },
+        { "valor": "Humorístico y entretenido", "texto": "Humorístico" }
+      ],
+      "default": "Cercano y conversacional",
+      "requerido": true
+    }
+  ],
+  "plantilla_prompt": "Actúa como un periodista experto y empático. Tu misión es entrevistarme para extraer mi conocimiento sobre un tema que domino pero que me cuesta poner en palabras.\n\n**Contexto:**\nTengo conocimientos sobre: {{tema_conocimiento}}.\nNo sé cómo estructurar mis ideas para escribir. Ni siquiera pude explicarlo en un simple comentario en una red social.\n\n**Tu Tarea:**\n1.  **Entrevístame:** Hazme preguntas una por una, de forma secuencial. No me abrumes con muchas preguntas a la vez. Empieza con una pregunta general y profundiza basándote en mis respuestas, como lo haría un verdadero periodista de investigación.\n2.  **Espera mi respuesta:** Después de cada pregunta, detente y espera mi respuesta.\n3.  **Objetivo Final:** Una vez que sientas que has extraído suficiente información, avísame que tienes material para trabajar y, con mi confirmación, convierte nuestra conversación en {{objetivo_escritura}}.\n4.  **Formato del Resultado:** El texto final debe titularse \"{{titulo_resultado}}\". Debes usar mis palabras exactas tanto como sea posible, pero estructurándolas y puliéndolas para que el texto sea coherente y fácil de leer.\n5.  **Tono:** El resultado final debe sonar {{tono}}.\n\nEmpieza ahora con tu primera pregunta."
+}

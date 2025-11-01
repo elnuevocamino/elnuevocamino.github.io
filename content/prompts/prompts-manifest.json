@@ -544,5 +544,12 @@
         "description": "Genera prompts para descubrir atracciones, museos, parques y joyas ocultas en tu próximo destino de viaje.",
         "categoryId": "viajes-y-estilo-de-vida",
         "templatedJsonPath": "/prompts/viajes-y-estilo-de-vida/points_of_interest_finder_form.json"
+    },
+    {
+        "id": "extractor-de-conocimiento",
+        "title": "Extractor de Conocimiento",
+        "description": "Convierte tu sabiduría en contenido. Actúa como si un periodista te entrevistara sobre un tema que dominas y transforma tus respuestas en un texto pulido.",
+        "categoryId": "contenido-escrito",
+        "templatedJsonPath": "/prompts/contenido-escrito/extractor-de-conocimiento.json"
     }
 ]

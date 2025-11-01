@@ -155,16 +155,15 @@
     },
     {
         "publicationDate": "2025-10-10",
-        "file": "posts/de-la-anticipacion-a-la-garantia.html",
         "title": "De la Anticipación a la Garantía",
         "subtitle": "El Nuevo Rol del Programador en la Era de la IA",
+        "file": "posts/de-la-anticipacion-a-la-garantia.html",
         "image": "de-la-anticipacion-a-la-garantia.png",
         "excerpt": "El programador ya no puede anticipar el 100% de los escenarios. Descubre cómo tu rol evoluciona de la lógica determinista a la Ingeniería de la Garantía con la IA, y aprende a controlar lo incierto.",
         "slug": "de-la-anticipacion-a-la-garantia"
     },
     {
         "publicationDate": "2025-10-17",
-        "file": "posts/la-paradoja-del-desarrollo-con-ia.html",
         "title": "La Paradoja del Desarrollo con IA",
         "subtitle": "¿Franquicia Llave en Mano o Planos del Arquitecto?",
         "image": "franquicia-vs-planos.png",
@@ -179,5 +178,14 @@
         "image": "la-deuda-tecnica.png",
         "excerpt": "¿Estás sacrificando la calidad por una falsa sensación de velocidad? Usando la metáfora del carpintero y el andamio, desglosamos cómo las soluciones rápidas generan un interés compuesto negativo en tus proyectos.",
         "slug": "la-deuda-tecnica"
+    },
+    {
+        "publicationDate": "2025-10-31",
+        "file": "posts/arqueologia-de-ideas.html",
+        "title": "Arqueología de Ideas: Cómo Descubrir los Tesoros Ocultos en tu Propia Mente",
+        "subtitle": "Aprende a desenterrar tus mejores ideas. No se trata de crear, sino de descubrir el potencial que ya reside en ti.",
+        "image": "arqueologia-de-ideas.png",
+        "excerpt": "Tu mente no es una fábrica; es un vasto terreno arqueológico. Aprende a excavar tus propias ideas con las herramientas adecuadas.",
+        "slug": "arqueologia-de-ideas"
     }
 ]
