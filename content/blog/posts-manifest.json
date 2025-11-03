@@ -187,5 +187,14 @@
         "image": "arqueologia-de-ideas.png",
         "excerpt": "Tu mente no es una fábrica; es un vasto terreno arqueológico. Aprende a excavar tus propias ideas con las herramientas adecuadas.",
         "slug": "arqueologia-de-ideas"
+    },
+    {
+        "publicationDate": "2025-11-02",
+        "file": "posts/la-ia-produce-mas-contenido-que-humanos-meseta-automatizacion-creativa.html",
+        "title": "La Inteligencia Artificial Produce Más Contenido Online que los Humanos: ¿Estamos en la Meseta de la Automatización Creativa?",
+        "subtitle": "Análisis sobre cómo la IA domina la producción de contenido online y el fenómeno de la 'meseta' creativa que desafía a los desarrolladores.",
+        "image": "manos-ia-humanos.png",
+        "excerpt": "La IA ya produce más contenido que los humanos. Analizamos el estancamiento de la 'meseta' creativa y cómo los desarrolladores deben adaptarse a esta nueva era.",
+        "slug": "la-ia-produce-mas-contenido-que-humanos-meseta-automatizacion-creativa"
     }
 ]

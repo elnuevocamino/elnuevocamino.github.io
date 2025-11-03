@@ -165,4 +165,10 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://www.hacktivepro.com/content/blog/posts/la-ia-produce-mas-contenido-que-humanos-meseta-automatizacion-creativa.html</loc>
+        <lastmod>2025-11-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
