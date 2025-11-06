@@ -196,5 +196,14 @@
         "image": "manos-ia-humanos.png",
         "excerpt": "La IA ya produce más contenido que los humanos. Analizamos el estancamiento de la 'meseta' creativa y cómo los desarrolladores deben adaptarse a esta nueva era.",
         "slug": "la-ia-produce-mas-contenido-que-humanos-meseta-automatizacion-creativa"
+    },
+    {
+        "publicationDate": "2025-11-06",
+        "file": "posts/ia-atrofia.html",
+        "title": "¿La IA está Atrofiando Nuestras Habilidades?",
+        "subtitle": "La Adicción a la Respuesta Inmediata y el Músculo Mental",
+        "image": "taller-ia-post.png",
+        "excerpt": "La IA es un taller que amplifica la productividad, pero ¿qué pasa cuando hay un apagón? Descubre el riesgo de la dependencia y cómo mantener tu 'músculo mental' en forma.",
+        "slug": "ia-atrofia"
     }
 ]
