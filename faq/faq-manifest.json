@@ -66,5 +66,9 @@
   {
     "question": "¿Puede la IA Simular Emociones o Reemplazar la Ausencia de un Ser Querido?",
     "file": "puede-reemplazar-emociones.md"
+  },
+  {
+    "question": "¿Cuando las Interfaces Cerebro-IA (BCI) Permitan la Descarga de Datos, Seguirá Teniendo Sentido el Aprendizaje?",
+    "file": "interfaces-cerebro-ia-aprendizaje.md"
   }
 ]
