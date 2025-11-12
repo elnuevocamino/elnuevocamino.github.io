@@ -4,7 +4,7 @@
         "file": "posts/de-la-piedra-al-algoritmo.html",
         "title": "De la piedra al algoritmo",
         "subtitle": "Una Breve Historia de la Innovación Humana y el Amanecer de la Era de la IA",
-        "image": "de-la-piedra.jpg",
+        "image": "de-la-piedra-thumb.webp",
         "excerpt": "El Neandertal era más fuerte, pero el Cromañón tenía herramientas. ¿Quién eres tú en la Era de la IA?",
         "slug": "DeLaPiedraAlAlgoritmo"
     },
@@ -13,7 +13,7 @@
         "file": "posts/visteme-despacio.html",
         "title": "Visteme despacio que la tecnología va de prisa",
         "subtitle": "El paso firme y decidido hacia el progreso",
-        "image": "visteme-despacio.png",
+        "image": "visteme-despacio-thumb.webp",
         "excerpt": "Desde que el primer rayo de sol iluminó la conciencia humana, hemos estado inmersos en una danza...",
         "slug": "VistemeDespacio"
     },
@@ -22,7 +22,7 @@
         "file": "posts/los-dos-gimnasios.html",
         "title": "Los dos gimnasios",
         "subtitle": "Entrenamiento las 24/7",
-        "image": "los-dos-gimnasios.jpg",
+        "image": "los-dos-gimnasios-thumb.webp",
         "excerpt": "Tal vez esto no te lo halla dicho ningún entrenador deportivo, pero lo cierto es que cuando te inscribes o pagas la mensualidad...",
         "slug": "LosDosGimnasios"
     },
@@ -31,7 +31,7 @@
         "title": "El Arte perdido de la comunicación en la era digital",
         "subtitle": "Un discurso de Churchill en 280 caracteres?",
         "file": "posts/el-arte-perdido.html",
-        "image": "el-arte-perdido-de-la-comunicacion.jpg",
+        "image": "el-arte-perdido-de-la-comunicacion-thumb.webp",
         "excerpt": "La brevedad no es un atajo sino una cima que exige una escalada mas empinada",
         "slug": "el-arte-perdido-de-la-comunicacion-en-la-era-digital"
     },
@@ -40,7 +40,7 @@
         "title": "Iniciación a los de prompts: El Arte de Hablar con la IA",
         "subtitle": "Domina la habilidad clave para desbloquear el verdadero potencial de la Inteligencia Artificial",
         "file": "posts/iniciacion-a-los-prompts.html",
-        "image": "prompt-engineering-guide.jpg",
+        "image": "prompt-engineering-guide-thumb.webp",
         "excerpt": "Si alguna vez has sentido que la Inteligencia Artificial no te da exactamente lo que pides, no estás solo",
         "slug": "guia-completa-ingenieria-prompt"
     },
@@ -49,7 +49,7 @@
         "title": "Perfeccionando la mecanografía",
         "subtitle": "Tres Reglas de Oro para Escribir en el teclado como un Pro",
         "file": "posts/perfeccionado-mecanografia.html",
-        "image": "perfeccionando-mecanografia.jpg",
+        "image": "perfeccionando-mecanografia-thumb.webp",
         "excerpt": "Aprender a escribir de forma rápida y eficiente, sin mirar el teclado y con todos los dedos, puede parecer una tarea compleja al principio",
         "slug": "perfeccionado-mecanografia"
     }
@@ -59,7 +59,7 @@
         "title": "El nuevo valle inquietante",
         "subtitle": "Cuando las máquinas conversan tan bien que nos incomodan",
         "file": "posts/el-valle-inquietante.html",
-        "image": "el-valle-inquietante.png",
+        "image": "el-valle-inquietante-thumb.webp",
         "excerpt": "El concepto del \"Valle Inquietante\" (Uncanny Valley), acuñado por el profesor japonés Masahiro Mori en 1970, describe esa extraña sensación de incomodidad",
         "slug": "perfeccionado-mecanografia"
     },
@@ -68,7 +68,7 @@
         "title": "Más allá del Prompt Perfecto",
         "subtitle": "Descubre la Productividad de la Conversación Curiosa con la IA",
         "file": "posts/mas-alla-del-prompt-perfecto.html",
-        "image": "mas-alla-del-prompt-perfecto.png",
+        "image": "mas-alla-del-prompt-perfecto-thumb.webp",
         "excerpt": "En la era de los Grandes Modelos de Lenguaje (LLMs) y los asistentes de IA, mucho se habla de la \"ingeniería de prompts\": la habilidad de formular la pregunta perfecta",
         "slug": "model-context-protocol"
     },
@@ -77,7 +77,7 @@
         "title": "Navegación inteligente - Parte 1",
         "subtitle": "Una travesía desde la intuición primitiva hasta el control del propio rumbo",
         "file": "posts/navegacion-inteligente-uno.html",
-        "image": "navegacion-inteligente-uno.png",
+        "image": "navegacion-inteligente-uno-thumb.webp",
         "excerpt": "No estás a la deriva. Un viaje desde la navegación primitiva hasta el control de tu rumbo interior, aplicando los principios de la vela.",
         "slug": "navegacion-inteligente-uno"
     },
@@ -86,7 +86,7 @@
         "title": "Navegación inteligente - Parte 2",
         "subtitle": "Convierte cada emoción en una oportunidad para dirigir tu propio viaje.",
         "file": "posts/navegacion-inteligente-dos.html",
-        "image": "navegacion-inteligente-dos.png",
+        "image": "navegacion-inteligente-dos-thumb.webp",
         "excerpt": "Convierte tus emociones en poder. Siete pasos de la navegación para ser tu propio auto-entrenador emocional y dirigir tu destino",
         "slug": "navegacion-inteligente-dos"
     },
@@ -95,7 +95,7 @@
         "title": "Subiendo la temperatura de la fiesta... y de la IA",
         "subtitle": "Cómo un simple concepto de la termodinámica se convirtió en la clave para desatar la creatividad de la Inteligencia Artificial.",
         "file": "posts/subiendo-la-temperatura.html",
-        "image": "subiendo-la-tempertura.png",
+        "image": "subiendo-la-tempertura-thumb.webp",
         "excerpt": "La termodinámica tiene la clave de la creatividad. Descubre cómo la temperatura controla si tu IA es precisa y aburrida, o una máquina de ideas geniales y locas.",
         "slug": "subiendo-la-tempertura"
     },
@@ -104,7 +104,7 @@
         "title": "¿Puedes dibujarlo? Entonces puedes entenderlo",
         "subtitle": "Cómo la Visualización Impulsa tu Productividad en el Código",
         "file": "posts/puedes-dibujarlo.html",
-        "image": "puedes-dibujarlo.png",
+        "image": "puedes-dibujarlo-thumb.webp",
         "excerpt": "Transforma la jungla de tu código en un plano claro. Usa la visualización UML e IA para entender la arquitectura, refactorizar con precisión y alcanzar la maestría en el desarrollo de software",
         "slug": "puedes-dibujarlo"
     },
@@ -113,7 +113,7 @@
         "title": "La Evolución del Teclado",
         "subtitle": "Más que una Herramienta, una Extensión de la Productividad",
         "file": "posts/la-evolucion-del-teclado.html",
-        "image": "Moonlander.webp",
+        "image": "Moonlander-thumb.webp",
         "excerpt": "El teclado, esa herramienta omnipresente en nuestro trabajo diario, a menudo pasa desapercibido. Sin embargo, su diseño y evolución son cruciales para nuestra productividad y bienestar",
         "slug": ""
     },
@@ -122,7 +122,7 @@
         "title": "Potencia tu contenido con IA",
         "subtitle": "Cómo la Visualización Impulsa tu Productividad en el Código",
         "file": "posts/potencia-tu-contenido-con-ia.html",
-        "image": "potencia-tu-contenido-con-ia.png",
+        "image": "potencia-tu-contenido-con-ia-thumb.webp",
         "excerpt": "¿Bloqueo creativo? La IA es tu asistente. Aprende a multiplicar tu productividad de contenido, generar ideas al instante y optimizar tu SEO. ¡Libera tu tiempo!",
         "slug": "potencia-tu-contenido-con-ia"
     },
@@ -131,7 +131,7 @@
         "file": "posts/adios-al-bloqueo-del-escritor.html",
         "title": "Adiós al Bloqueo del Escritor: De la Idea al Artículo con IA en 2 Pasos",
         "subtitle": "Un flujo de trabajo práctico para generar contenido de calidad sin fricción, combinando dos de nuestras herramientas más potentes.",
-        "image": "adios-al-bloqueo-del-escritor.png",
+        "image": "adios-al-bloqueo-del-escritor-thumb.webp",
         "excerpt": "Descubre cómo superar el bloqueo del escritor utilizando un flujo de dos pasos con las herramientas de IA de HactivePro para generar ideas y desarrollar artículos completos.",
         "slug": "adios-al-bloqueo-del-escritor"
     },
@@ -140,7 +140,7 @@
         "file": "posts/la-buena-noticia-es-que-es-dificil.html",
         "title": "La buena noticia es que es muy difícil",
         "subtitle": "La Ilusión del Éxito Instantáneo.",
-        "image": "la-buena-noticia-es-que-es-dificil.png",
+        "image": "la-buena-noticia-es-que-es-dificil-thumb.webp",
         "excerpt": "Últimamente, en el vasto y ruidoso mundo de internet, hay un zumbido constante, una promesa que resuena en cada titular: la Inteligencia Artificial te hará rico de la noche a la mañana...",
         "slug": "la-buena-noticia-es-que-es-dificil"
     },
@@ -149,7 +149,7 @@
         "file": "posts/la-navaja-suiza-digital.html",
         "title": "La Navaja Suiza Digital",
         "subtitle": "Por Qué Tu IA No Es Magia, Sino un Destornillador",
-        "image": "navaja-suiza-digital.png",
+        "image": "navaja-suiza-digital-thumb.webp",
         "excerpt": "¿Alguna vez te has enfrentado a un tornillo de estrella con solo un alicate en la mano? Es frustrante, ¿verdad? Puedes hacer palanca, girar, hasta quizás malograr la cabeza del tornillo...",
         "slug": "la-navaja-suiza-digital"
     },
@@ -158,7 +158,7 @@
         "title": "De la Anticipación a la Garantía",
         "subtitle": "El Nuevo Rol del Programador en la Era de la IA",
         "file": "posts/de-la-anticipacion-a-la-garantia.html",
-        "image": "de-la-anticipacion-a-la-garantia.png",
+        "image": "de-la-anticipacion-a-la-garantia-thumb.webp",
         "excerpt": "El programador ya no puede anticipar el 100% de los escenarios. Descubre cómo tu rol evoluciona de la lógica determinista a la Ingeniería de la Garantía con la IA, y aprende a controlar lo incierto.",
         "slug": "de-la-anticipacion-a-la-garantia"
     },
@@ -166,7 +166,7 @@
         "publicationDate": "2025-10-17",
         "title": "La Paradoja del Desarrollo con IA",
         "subtitle": "¿Franquicia Llave en Mano o Planos del Arquitecto?",
-        "image": "franquicia-vs-planos.png",
+        "image": "franquicia-vs-planos-thumb.webp",
         "excerpt": "¿Velocidad sin control (Franquicia) o código transparente con libertad (Planos del Arquitecto)? La IA obliga a elegir. Descubre cómo Gemini resuelve esta paradoja del desarrollo.",
         "slug": "la-paradoja-del-desarrollo-con-ia"
     },
@@ -175,7 +175,7 @@
         "file": "posts/la-deuda-tecnica.html",
         "title": "La Deuda Técnica y el Precio de los Atajos",
         "subtitle": "Cuando el corto plazo compromete el largo plazo",
-        "image": "la-deuda-tecnica.png",
+        "image": "la-deuda-tecnica-thumb.webp",
         "excerpt": "¿Estás sacrificando la calidad por una falsa sensación de velocidad? Usando la metáfora del carpintero y el andamio, desglosamos cómo las soluciones rápidas generan un interés compuesto negativo en tus proyectos.",
         "slug": "la-deuda-tecnica"
     },
@@ -184,7 +184,7 @@
         "file": "posts/arqueologia-de-ideas.html",
         "title": "Arqueología de Ideas: Cómo Descubrir los Tesoros Ocultos en tu Propia Mente",
         "subtitle": "Aprende a desenterrar tus mejores ideas. No se trata de crear, sino de descubrir el potencial que ya reside en ti.",
-        "image": "arqueologia-de-ideas.png",
+        "image": "arqueologia-de-ideas-thumb.webp",
         "excerpt": "Tu mente no es una fábrica; es un vasto terreno arqueológico. Aprende a excavar tus propias ideas con las herramientas adecuadas.",
         "slug": "arqueologia-de-ideas"
     },
@@ -193,7 +193,7 @@
         "file": "posts/la-ia-produce-mas-contenido-que-humanos-meseta-automatizacion-creativa.html",
         "title": "La Inteligencia Artificial Produce Más Contenido Online que los Humanos: ¿Estamos en la Meseta de la Automatización Creativa?",
         "subtitle": "Análisis sobre cómo la IA domina la producción de contenido online y el fenómeno de la 'meseta' creativa que desafía a los desarrolladores.",
-        "image": "manos-ia-humanos.png",
+        "image": "manos-ia-humanos-thumb.webp",
         "excerpt": "La IA ya produce más contenido que los humanos. Analizamos el estancamiento de la 'meseta' creativa y cómo los desarrolladores deben adaptarse a esta nueva era.",
         "slug": "la-ia-produce-mas-contenido-que-humanos-meseta-automatizacion-creativa"
     },
@@ -202,7 +202,7 @@
         "file": "posts/ia-atrofia.html",
         "title": "¿La IA está Atrofiando Nuestras Habilidades?",
         "subtitle": "La Adicción a la Respuesta Inmediata y el Músculo Mental",
-        "image": "taller-ia-post.png",
+        "image": "taller-ia-post-thumb.webp",
         "excerpt": "La IA es un taller que amplifica la productividad, pero ¿qué pasa cuando hay un apagón? Descubre el riesgo de la dependencia y cómo mantener tu 'músculo mental' en forma.",
         "slug": "ia-atrofia"
     }
