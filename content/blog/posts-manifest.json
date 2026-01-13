@@ -52,8 +52,7 @@
         "image": "perfeccionando-mecanografia-thumb.webp",
         "excerpt": "Aprender a escribir de forma rápida y eficiente, sin mirar el teclado y con todos los dedos, puede parecer una tarea compleja al principio",
         "slug": "perfeccionado-mecanografia"
-    }
-    ,
+    },
     {
         "publicationDate": "2025-07-23",
         "title": "El nuevo valle inquietante",
@@ -205,5 +204,23 @@
         "image": "taller-ia-post-thumb.webp",
         "excerpt": "La IA es un taller que amplifica la productividad, pero ¿qué pasa cuando hay un apagón? Descubre el riesgo de la dependencia y cómo mantener tu 'músculo mental' en forma.",
         "slug": "ia-atrofia"
+    },
+    {
+        "publicationDate": "2025-11-22",
+        "file": "posts/ai-millionaire-no-thanks.html",
+        "title": "La Verdad Incómoda del 'Dinero Rápido' con IA: No Busques un Atajo, Construye un Negocio",
+        "subtitle": "AI Millionaire? No thanks, I use AI the right way.",
+        "image": "ia-millonario-pala-vs-herramienta-thumb.webp",
+        "excerpt": "Descubre por qué el modelo de 'AI Millionaire' es insostenible y cómo construir un negocio digital legítimo usando la IA como herramienta, no como atajo.",
+        "slug": "ai-millionaire-no-thanks"
+    },
+    {
+        "publicationDate": "2026-01-12",
+        "file": "posts/edge-ai-2026-falcon-h1r-inteligencia-local.html",
+        "title": "Edge AI en 2026: La Revolución de la Inteligencia Local",
+        "subtitle": "Cómo modelos como Falcon-H1R están llevando la IA del centro de datos a tu bolsillo.",
+        "image": "ia-en-el-borde-edge-ai-seguridad-dispositivo-movil-thumb.webp",
+        "excerpt": "Descubre por qué la IA de Borde (Edge AI) define el 2026. Analizamos el modelo Falcon-H1R y su impacto en la privacidad y latencia.",
+        "slug": "edge-ai-2026-falcon-h1r-inteligencia-local"
     }
 ]

@@ -183,4 +183,16 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://www.hacktivepro.com/content/blog/posts/ai-millionaire-no-thanks.html</loc>
+        <lastmod>2025-11-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.hacktivepro.com/content/blog/posts/edge-ai-2026-falcon-h1r-inteligencia-local.html</loc>
+        <lastmod>2026-01-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
