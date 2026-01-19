@@ -222,5 +222,14 @@
         "image": "ia-en-el-borde-edge-ai-seguridad-dispositivo-movil-thumb.webp",
         "excerpt": "Descubre por qué la IA de Borde (Edge AI) define el 2026. Analizamos el modelo Falcon-H1R y su impacto en la privacidad y latencia.",
         "slug": "edge-ai-2026-falcon-h1r-inteligencia-local"
+    },
+    {
+        "publicationDate": "2026-01-19",
+        "file": "posts/ia-fisica-guia-programadores-2026.html",
+        "title": "Hello, Physical AI World!: Guía para Programadores en la Nueva Era Tech",
+        "subtitle": "Domina el stack tecnológico que conecta el código con el mundo real tras el CES 2026.",
+        "image": "programador-era-ia-fisica-robot-humanoide-thumb.webp",
+        "excerpt": "¿Cómo programar la IA Física? Descubre el nuevo stack tecnológico (Edge AI, Sensores y C#) para llevar tus algoritmos al mundo real. ¡Prepárate para el futuro!",
+        "slug": "ia-fisica-guia-programadores-2026"
     }
 ]
