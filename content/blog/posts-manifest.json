@@ -232,4 +232,14 @@
         "excerpt": "¿Cómo programar la IA Física? Descubre el nuevo stack tecnológico (Edge AI, Sensores y C#) para llevar tus algoritmos al mundo real. ¡Prepárate para el futuro!",
         "slug": "ia-fisica-guia-programadores-2026"
     }
+    ,
+    {
+        "publicationDate": "2026-01-29",
+        "file": "posts/agentes-ia-2026-productividad-flujos-manuales.html",
+        "title": "Agentes de IA 2026: De Flujos Manuales a la IA Agéntica",
+        "subtitle": "Cómo liderar la transición hacia la automatización inteligente y la productividad de nueva generación.",
+        "image": "capitan-kirk-gerente-agentes-ia-productividad-2026-thumb.webp",
+        "excerpt": "La transición de los flujos manuales a los Agentes de IA: orquestación, razonamiento y el nuevo rol humano como directores de orquesta.",
+        "slug": "agentes-ia-2026-productividad-flujos-manuales"
+    }
 ]
