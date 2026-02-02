@@ -242,4 +242,14 @@
         "excerpt": "La transición de los flujos manuales a los Agentes de IA: orquestación, razonamiento y el nuevo rol humano como directores de orquesta.",
         "slug": "agentes-ia-2026-productividad-flujos-manuales"
     }
+    ,
+    {
+        "publicationDate": "2026-02-02",
+        "file": "posts/sobreinformacion-malware-mental-guia-limpieza.html",
+        "title": "Sobreinformación: Cómo eliminar el 'Malware' de tu mente",
+        "subtitle": "Guía práctica para limpiar tu sistema operativo mental y recuperar tu enfoque en la era del ruido digital.",
+        "image": "sobreinformacion-malware-alma-cerebro-digital-thumb.webp",
+        "excerpt": "¿Sientes agotamiento mental? Descubre cómo combatir la sobreinformación con estas técnicas de 'antivirus' mental. ¡Optimiza tu atención y recupera tu paz hoy!",
+        "slug": "sobreinformacion-malware-mental-guia-limpieza"
+    }
 ]
