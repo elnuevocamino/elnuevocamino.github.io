@@ -252,4 +252,14 @@
         "excerpt": "¿Sientes agotamiento mental? Descubre cómo combatir la sobreinformación con estas técnicas de 'antivirus' mental. ¡Optimiza tu atención y recupera tu paz hoy!",
         "slug": "sobreinformacion-malware-mental-guia-limpieza"
     }
+    ,
+    {
+        "publicationDate": "2026-02-09",
+        "file": "posts/opus-4-6-extincion-software-saas.html",
+        "title": "Opus 4.6: El meteorito que extinguirá el software tradicional",
+        "subtitle": "Por qué el modelo SaaS actual está en peligro y cómo sobrevivir al invierno tecnológico de la IA.",
+        "image": "impacto-meteorito-opus-4-6-extincion-saas-thumb.webp",
+        "excerpt": "Descubre cómo Opus 4.6 está provocando el 'invierno del software'. Analizamos por qué las SaaS tradicionales están en peligro y cómo adaptarte para sobrevivir. ¡Lee más!",
+        "slug": "opus-4-6-extincion-software-saas"
+    }
 ]
