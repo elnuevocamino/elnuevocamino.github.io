@@ -231,8 +231,7 @@
         "image": "programador-era-ia-fisica-robot-humanoide-thumb.webp",
         "excerpt": "¿Cómo programar la IA Física? Descubre el nuevo stack tecnológico (Edge AI, Sensores y C#) para llevar tus algoritmos al mundo real. ¡Prepárate para el futuro!",
         "slug": "ia-fisica-guia-programadores-2026"
-    }
-    ,
+    },
     {
         "publicationDate": "2026-01-29",
         "file": "posts/agentes-ia-2026-productividad-flujos-manuales.html",
@@ -241,8 +240,7 @@
         "image": "capitan-kirk-gerente-agentes-ia-productividad-2026-thumb.webp",
         "excerpt": "La transición de los flujos manuales a los Agentes de IA: orquestación, razonamiento y el nuevo rol humano como directores de orquesta.",
         "slug": "agentes-ia-2026-productividad-flujos-manuales"
-    }
-    ,
+    },
     {
         "publicationDate": "2026-02-02",
         "file": "posts/sobreinformacion-malware-mental-guia-limpieza.html",
@@ -251,8 +249,7 @@
         "image": "sobreinformacion-malware-alma-cerebro-digital-thumb.webp",
         "excerpt": "¿Sientes agotamiento mental? Descubre cómo combatir la sobreinformación con estas técnicas de 'antivirus' mental. ¡Optimiza tu atención y recupera tu paz hoy!",
         "slug": "sobreinformacion-malware-mental-guia-limpieza"
-    }
-    ,
+    },
     {
         "publicationDate": "2026-02-09",
         "file": "posts/opus-4-6-extincion-software-saas.html",
@@ -261,5 +258,14 @@
         "image": "impacto-meteorito-opus-4-6-extincion-saas-thumb.webp",
         "excerpt": "Descubre cómo Opus 4.6 está provocando el 'invierno del software'. Analizamos por qué las SaaS tradicionales están en peligro y cómo adaptarte para sobrevivir. ¡Lee más!",
         "slug": "opus-4-6-extincion-software-saas"
+    },
+    {
+        "publicationDate": "2026-02-23",
+        "file": "posts/grok-4-20-inteligencia-colectiva-consejo-sabios.html",
+        "title": "Grok 4.20: El despertar de la inteligencia colectiva en IA",
+        "subtitle": "Descubre cómo el nuevo 'Consejo de Sabios' de xAI está jubilando a los modelos solitarios.",
+        "image": "abrazo-androides-inteligencia-colectiva-grok-4-20-thumb.webp",
+        "excerpt": "¿Puede una IA debatir consigo misma? Explora cómo Grok 4.20 y su Consejo de Sabios eliminan alucinaciones mediante el debate interno. ¡Lee más aquí!",
+        "slug": "grok-4-20-inteligencia-colectiva-consejo-sabios"
     }
 ]
