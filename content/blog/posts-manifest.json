@@ -267,5 +267,14 @@
         "image": "abrazo-androides-inteligencia-colectiva-grok-4-20-thumb.webp",
         "excerpt": "¿Puede una IA debatir consigo misma? Explora cómo Grok 4.20 y su Consejo de Sabios eliminan alucinaciones mediante el debate interno. ¡Lee más aquí!",
         "slug": "grok-4-20-inteligencia-colectiva-consejo-sabios"
+    },
+    {
+        "publicationDate": "2026-03-09",
+        "file": "posts/gemini-3-1-pro-guia-razonamiento-ia.html",
+        "title": "Gemini 3.1 Pro: La IA que razona y cómo dominarla en 2026",
+        "subtitle": "Descubre por qué el razonamiento abstracto de Google cambia las reglas del juego y cómo aprovecharlo con prompts estructurados.",
+        "image": "gemini-3-1-pro-razonamiento-logico-ia-thumb.webp",
+        "excerpt": "¿Cansado de respuestas rápidas pero vacías? Descubre cómo Gemini 3.1 Pro utiliza el razonamiento abstracto para resolver problemas complejos. ¡Domínalo aquí!",
+        "slug": "gemini-3-1-pro-guia-razonamiento-ia"
     }
 ]
