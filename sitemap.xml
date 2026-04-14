@@ -198,6 +198,12 @@
     <url>
         <loc>https://www.hacktivepro.com/content/blog/posts/edge-ai-2026-falcon-h1r-inteligencia-local.html</loc>
         <lastmod>2026-01-12</lastmod>
+    </url>
+    <url>
+        <loc>https://www.hacktivepro.com/content/blog/posts/carta-a-mi-padre.html</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>

@@ -197,8 +197,7 @@
         "slug": "la-ia-produce-mas-contenido-que-humanos-meseta-automatizacion-creativa"
     },
     {
-        "publicationDate": "2025-11-06",
-        "file": "posts/ia-atrofia.html",
+        "publicationDate": "2025-11-06",        "file": "posts/ia-atrofia.html",
         "title": "¿La IA está Atrofiando Nuestras Habilidades?",
         "subtitle": "La Adicción a la Respuesta Inmediata y el Músculo Mental",
         "image": "taller-ia-post-thumb.webp",
@@ -276,5 +275,14 @@
         "image": "gemini-3-1-pro-razonamiento-logico-ia-thumb.webp",
         "excerpt": "¿Cansado de respuestas rápidas pero vacías? Descubre cómo Gemini 3.1 Pro utiliza el razonamiento abstracto para resolver problemas complejos. ¡Domínalo aquí!",
         "slug": "gemini-3-1-pro-guia-razonamiento-ia"
+    },
+    {
+        "publicationDate": "2026-04-14",
+        "file": "posts/carta-a-mi-padre.html",
+        "title": "Carta a mi padre.",
+        "subtitle": "Más allá de la Materia: El Legado de mi Padre y la Tecnología del Alma.",
+        "image": "mi-heore-thumb.webp",
+        "excerpt": "Una carta personal sobre el legado, la espiritualidad y el amor de un padre, escrita por Luis Antonio D'Andrea.",
+        "slug": "carta-a-mi-padre"
     }
 ]
