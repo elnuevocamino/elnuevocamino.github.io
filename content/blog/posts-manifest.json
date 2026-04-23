@@ -285,4 +285,14 @@
         "excerpt": "Una carta personal sobre el legado, la espiritualidad y el amor de un padre, escrita por Luis Antonio D'Andrea.",
         "slug": "carta-a-mi-padre"
     }
+    ,
+    {
+        "publicationDate": "2026-04-23",
+        "file": "posts/atrofia-hallazgo-intencion-humana-ia.html",
+        "title": "Atrofia del Hallazgo: ¿Qué perdemos al encontrarlo todo?",
+        "subtitle": "Reflexión sobre la IA, la intencionalidad humana y el fin de la búsqueda tradicional.",
+        "image": "estudiante-buscando-libro-biblioteca-convencional-thumb.webp",
+        "excerpt": "¿Está la IA atrofiando nuestra capacidad de búsqueda? Analizamos el valor de la intencionalidad humana frente a la automatización del conocimiento. ¡Lee más aquí!",
+        "slug": "atrofia-hallazgo-intencion-humana-ia"
+    }
 ]
