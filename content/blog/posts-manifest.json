@@ -294,5 +294,14 @@
         "image": "estudiante-buscando-libro-biblioteca-convencional-thumb.webp",
         "excerpt": "¿Está la IA atrofiando nuestra capacidad de búsqueda? Analizamos el valor de la intencionalidad humana frente a la automatización del conocimiento. ¡Lee más aquí!",
         "slug": "atrofia-hallazgo-intencion-humana-ia"
+    },
+    {
+        "publicationDate": "2026-07-06",
+        "file": "posts/gemini-3-5-flash-computer-use-funcionamiento.html",
+        "title": "Gemini 3.5 Flash: Cómo funciona su nuevo Computer Use",
+        "subtitle": "Domina el uso de computadoras por IA y los nuevos agentes autónomos multitarea",
+        "image": "gemini-3-5-flash-computer-use-explained-thumb.webp",
+        "excerpt": "Descubre cómo Gemini 3.5 Flash Computer Use revoluciona la automatización con agentes autónomos que controlan tu pantalla.",
+        "slug": "gemini-3-5-flash-computer-use-funcionamiento"
     }
 ]
