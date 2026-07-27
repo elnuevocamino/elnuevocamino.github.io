@@ -312,5 +312,14 @@
         "image": "multitud-arrodillada-mirando-celulares-noche-thumb.webp",
         "excerpt": "¿Nos domina la tecnología? Descubre cómo el algoritmo y las redes sociales se convirtieron en el nuevo dios de neón.",
         "slug": "dios-de-neon-tecnologia-redes-sociales"
+    },
+    {
+        "publicationDate": "2026-07-27",
+        "file": "posts/cplusplus-apps-moviles-ia-local-edge.html",
+        "title": "C++ en Apps Móviles: La Ventaja Injusta para IA Local",
+        "subtitle": "Por qué la brecha entre frameworks multiplataforma y nativos ya no importa si buscas rendimiento real en Edge AI sin costos de servidor.",
+        "image": "cplusplus-apps-moviles-ia-local-comparativa-thumb.webp",
+        "excerpt": "Descubre cómo un core en C++ potencia tus apps móviles con IA local y cero costos de servidor. ¡Optimiza tu arquitectura y lee la guía completa!",
+        "slug": "cplusplus-apps-moviles-ia-local-edge"
     }
 ]
