@@ -267,4 +267,10 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://www.hacktivepro.com/content/blog/posts/origen-escritura-aclara-tu-mente.html</loc>
+        <lastmod>2026-08-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
