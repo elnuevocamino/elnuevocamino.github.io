@@ -197,7 +197,8 @@
         "slug": "la-ia-produce-mas-contenido-que-humanos-meseta-automatizacion-creativa"
     },
     {
-        "publicationDate": "2025-11-06",        "file": "posts/ia-atrofia.html",
+        "publicationDate": "2025-11-06",
+        "file": "posts/ia-atrofia.html",
         "title": "¿La IA está Atrofiando Nuestras Habilidades?",
         "subtitle": "La Adicción a la Respuesta Inmediata y el Músculo Mental",
         "image": "taller-ia-post-thumb.webp",
@@ -284,8 +285,7 @@
         "image": "mi-heore-thumb.webp",
         "excerpt": "Una carta personal sobre el legado, la espiritualidad y el amor de un padre, escrita por Luis Antonio D'Andrea.",
         "slug": "carta-a-mi-padre"
-    }
-    ,
+    },
     {
         "publicationDate": "2026-04-23",
         "file": "posts/atrofia-hallazgo-intencion-humana-ia.html",
@@ -348,5 +348,14 @@
         "image": "michael-faraday-busqueda-google-laboratorio-victoriano-thumb.webp",
         "excerpt": "Descubre cómo comenzó la inteligencia artificial en la práctica a través del autocompletado probabilístico. ¡Entra y domina el concepto hoy mismo!",
         "slug": "origen-practico-inteligencia-artificial-autocompletado"
+    },
+    {
+        "publicationDate": "2026-08-25",
+        "file": "posts/leyes-fisicas-vs-leyes-politicas-voluntarismo.html",
+        "title": "Leyes físicas vs leyes políticas: El mito del voluntarismo",
+        "subtitle": "Por qué confundir las normas sociales con las leyes de la naturaleza arruina tus proyectos y cómo la física define el éxito real.",
+        "image": "batman-superman-flash-senderismo-montana-thumb.webp",
+        "excerpt": "Descubre por qué las leyes físicas no negocian con tu fuerza de voluntad. Aprende a diseñar con límites reales y optimizar tu vida.",
+        "slug": "leyes-fisicas-vs-leyes-politicas-voluntarismo"
     }
 ]
