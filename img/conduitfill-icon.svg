@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="100%" height="100%">
+  <defs>
+    <style>
+      :root {
+        --icon-bg-canvas: #f8f9fa;
+        --icon-stroke-main: #333333;
+        --icon-accent-tech: #457b9d;
+        --icon-grid-guide: #e9ecef;
+        --icon-conduit-wall: #ffffff;
+      }
+
+
+      .canvas-bg {
+        fill: var(--icon-bg-canvas);
+      }
+
+      .grid-line {
+        stroke: var(--icon-grid-guide);
+        stroke-width: 2px;
+        stroke-dasharray: 8 8;
+        fill: none;
+      }
+
+      .conduit-base {
+        fill: var(--icon-conduit-wall);
+        stroke: var(--icon-stroke-main);
+        stroke-width: 14px;
+      }
+
+      .conduit-inner {
+        fill: none;
+        stroke: var(--icon-stroke-main);
+        stroke-width: 8px;
+        stroke-dasharray: 12 10;
+      }
+
+      .conductor-line {
+        fill: none;
+        stroke: var(--icon-stroke-main);
+        stroke-width: 12px;
+      }
+
+      .conductor-accent {
+        fill: var(--icon-accent-tech);
+        stroke: var(--icon-stroke-main);
+        stroke-width: 12px;
+      }
+
+      .spark-bolt {
+        fill: var(--icon-accent-tech);
+        stroke: var(--icon-stroke-main);
+        stroke-width: 10px;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+
+  <!-- Lienzo cuadrado iOS (el sistema aplica la máscara squircle) -->
+  <rect width="1024" height="1024" class="canvas-bg" />
+
+  <!-- Retícula técnica de ingeniería / guías de centrado -->
+  <line x1="512" y1="120" x2="512" y2="904" class="grid-line" />
+  <line x1="120" y1="512" x2="904" y2="512" class="grid-line" />
+  <circle cx="512" cy="512" r="390" class="grid-line" />
+
+  <!-- Sección transversal exterior de la tubería conduit -->
+  <circle cx="512" cy="512" r="320" class="conduit-base" />
+
+  <!-- Límite interior / pared nominal de tubería -->
+  <circle cx="512" cy="512" r="280" class="conduit-inner" />
+
+  <!-- Grupo de conductores internos (Disposición técnica multifilar) -->
+  <!-- Conductor Fase A -->
+  <circle cx="430" cy="425" r="80" class="conductor-line" />
+  
+  <!-- Conductor Fase B -->
+  <circle cx="594" cy="425" r="80" class="conductor-line" />
+
+  <!-- Conductor Fase C (Resaltado en Acento Técnico) -->
+  <circle cx="512" cy="590" r="80" class="conductor-accent" />
+
+  <!-- Conductor de Tierra / Neutro (Inferior izquierdo) -->
+  <circle cx="395" cy="570" r="48" class="conductor-line" />
+
+  <!-- Detalle Funcional: Rayo eléctrico de control centrado superior -->
+  <polygon points="512,180 472,300 516,300 488,410 568,275 522,275 548,180" class="spark-bolt" />
+</svg>
