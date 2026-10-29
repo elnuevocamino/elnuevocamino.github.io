@@ -366,5 +366,14 @@
         "image": "calma-disciplina-urgencia-digital-espera-thumb.webp",
         "excerpt": "Descubre cómo las urgencias artificiales sabotean tu productividad y aprende a blindar tu disciplina ante el caos ajeno.",
         "slug": "urgencias-artificiales-tiempo-ajeno"
+    },
+    {
+        "publicationDate": "2026-10-29",
+        "file": "posts/fin-del-codigo-fuente-ia-programadores.html",
+        "title": "Código fuente: ¿El fin del programador ante la IA?",
+        "subtitle": "Descubre por qué la existencia del código fuente es nuestra mejor garantía de supervivencia laboral frente al avance de la inteligencia artificial.",
+        "image": "programador-gigante-escribiendo-codigo-fuente-ia-thumb.webp",
+        "excerpt": "¿La IA reemplazará a los programadores escribiendo binario? Descubre por qué el código fuente es nuestra defensa.",
+        "slug": "fin-del-codigo-fuente-ia-programadores"
     }
 ]
