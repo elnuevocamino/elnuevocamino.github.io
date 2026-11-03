@@ -384,5 +384,14 @@
         "image": "limites-de-la-inteligencia-artificial-conexion-humana-thumb.webp",
         "excerpt": "Conoce cuales son los limites de la inteligencia artificial y que capacidades humanas jamas podra reemplazar. ¡Entra y descubre la verdad!",
         "slug": "limites-de-la-inteligencia-artificial"
+    },
+    {
+        "publicationDate": "2026-11-03",
+        "file": "posts/sdd-especificacion-autonomia-desarrollo-guiado.html",
+        "title": "SDD: Especificación, Autonomía y TDD en la Era de la IA",
+        "subtitle": "Descubre cómo equilibrar el Spec-Driven Development con el TDD tradicional sin perder el control arquitectónico del código.",
+        "image": "sdd-desarrollo-software-con-inteligencia-artificial-thumb.webp",
+        "excerpt": "Aprende los límites del Spec-Driven Development (SDD) frente al TDD. Domina el cuasideterminismo y optimiza tu código con IA. ¡Lee el artículo!",
+        "slug": "sdd-especificacion-autonomia-desarrollo-guiado"
     }
 ]
